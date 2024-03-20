@@ -11,8 +11,7 @@ activityrecognition@smartlab.ws
 A full description is available at the site www.smartlab.ws where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
--------------------------------------------------------------------------------------------------
-#### List of the original data sets inside the downloaded zip file:
+List of the original data sets inside the downloaded zip file:
 
  	 - 'README.txt': describes about the general information and background related to the data sets within the zip file.
 	
@@ -43,7 +42,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
    	    found in 'README.txt', 'feature_info.txt' and 'feature.txt' and the original website.
     
 
-##Following are the  list of variables of each feature vector is available in 'features.txt'
+Following are the  list of variables of each feature vector is available in 'features.txt'
 
 	tBodyAcc-mean()-X           tBodyAcc-mean()-Y           tBodyAcc-mean()-Z           tBodyAcc-std()-X           
 	tBodyAcc-std()-Y            tBodyAcc-std()-Z            tGravityAcc-mean()-X        tGravityAcc-mean()-Y       
@@ -65,10 +64,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 
 
-       
-     + There are 5 main steps in run_analysis.R to process the raw data sets and create the tidy data set.
-
-        R script called run_analysis.R that does the following. 
+There are 5 main steps in run_analysis.R to process the raw data sets and create the tidy data set.
+R script called run_analysis.R that does the following. 
 
 1.Merges the training and the test sets to create one data set.
 
