@@ -1,3 +1,4 @@
+#here download the Zip file to desktop and unzip it(use an unzipping app)
 setwd("~/Desktop/UCI HAR Dataset")
 
 library(dplyr)
